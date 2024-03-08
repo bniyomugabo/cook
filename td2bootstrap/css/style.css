@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
+
+* {
+    font-family: 'Cormorant', serif;
+}
+
+.nav1 {
+    background-color: white;
+}
+
+body {
+    background-color: #0f0c0e;
+}
+
+#tout {
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+}
+
+.mn {
+    background-color: #0f0c0e;
+}
+
+.sect1 {
+    background-color: #d2a134;
+}
+
+h2 {
+    background-color: #0f0c0e;
+    color: white;
+
+}
+
+.classementitem {
+    background-color: #65491b;
+
+}
+
+#prefere {
+    background-color: #0f0c0e;
+}
+
+.container3 {
+    background-color: #0f0c0e;
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+footer {
+    color: white;
+    padding: 20px;
+}
+
+@media screen and (max-width:640px) {
+    #tout {
+        flex-direction: column;
+    }
+
+    .asidelt button {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    section,
+    aside {
+        width: auto;
+    }
+}

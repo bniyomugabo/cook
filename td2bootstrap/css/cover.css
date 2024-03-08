@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@800&display=swap');
+
+body {
+    background-color: #424739;
+    padding-top: 20%;
+}
+
+.child {
+    background-color: #db9733;
+    font-family: 'BioRhyme', serif;
+    text-align: center;
+    font-size: 50px;
+    padding: auto;
+}
+
+.child a {
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    font-size: 20px;
+    background-color: #424739;
+
+}
